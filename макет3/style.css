@@ -1,0 +1,603 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.header {
+    background-image: url(style_img/head_bgi.jpg);
+    background-size: cover;
+    width: 1280px;
+    height: 933px;
+}
+
+.menu {
+    display: inline-block;
+    float: right;
+    list-style-type: none;
+    font-family: 'Quicksand';
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 50px;
+}
+
+.menu>li>a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.li {
+    float: left;
+    margin-right: 54px;
+    letter-spacing: 2px;
+}
+
+.li>i {
+    font-size: 24px;
+}
+
+.caption {
+    display: inline-block;
+    font-family: 'Quicksand';
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 243px;
+    margin-left: 241px;
+}
+
+.paragraph {
+    display: inline-block;
+    width: 586px;
+    font-family: 'Quicksand';
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    margin-left: 347px;
+    margin-top: 14px;
+}
+
+.chevron_down {
+    width: 1280px;
+    color: #ffffff;
+    font-size: 34px;
+    margin-top: 276px;
+}
+
+.chevron_down>i {
+    margin-left: 620px;
+}
+
+.chevron_down:hover .dropdown_menu {
+    display: block;
+}
+
+.dropdown_menu {
+    display: none;
+    margin-top: 18px;
+    background-color: #f5f6f7;
+    height: 147px;
+}
+
+.checkbox {
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #aa9b77;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    width: 25px;
+    height: 24px;
+    margin-top: 60px;
+}
+
+.checkbox:first-child {
+    margin-left: 96px;
+}
+
+.checkbox:nth-child(n+2) {
+    margin-left: 40px;
+}
+
+.gender {
+    margin-left: 18px;
+    font-family: 'Quicksand';
+    color: #333333;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.button {
+    border-radius: 3px;
+    background-color: #aa9b77;
+    width: 204px;
+    height: 52px;
+    margin-top: 46px;
+    margin-left: 481px;
+    font-family: 'Quicksand';
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.men {
+    display: inline-block;
+    margin-top: 150px;
+    font-family: 'Quicksand';
+    color: #424242;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+    margin-left: 98px;
+}
+
+.men>h3 {
+    display: inline-block;
+    float: left;
+}
+
+.men>hr {
+    display: inline-block;
+    background-color: #cccccc;
+    width: 996px;
+    height: 2px;
+    margin-left: 52px;
+    border: none;
+}
+
+.page {
+    margin-top: 38px;
+    float: right;
+    margin-right: 180px;
+    font-family: 'Quicksand';
+    color: #aa9b77;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.page>p {
+    letter-spacing: 4px;
+}
+
+.chevron_left_right>a>i {
+    text-decoration: none;
+    color: #aa9b77;
+    letter-spacing: 6px;
+}
+
+.men_one {
+    width: 1280px;
+    height: 378px;
+    margin-top: 97px;
+}
+
+.shirt_men {
+    display: inline-block;
+    width: 320px;
+    height: 378px;
+    border: 2px solid black;
+    float: left;
+}
+
+.shirt_men>img {
+    display: inline-block;
+    background-color: #f5f6f7;
+    margin-right: 90px;
+    float: right;
+    margin-top: 94px;
+}
+
+.size {
+    display: inline-block;
+    width: 50px;
+    list-style-type: none;
+    font-family: 'Quicksand';
+    color: #424242;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 24px;
+    font-weight: 700;
+}
+
+.size_xl {
+    list-style-type: none;
+    display: none;
+    font-weight: 700;
+}
+
+.size:hover .size_xl {
+    display: block;
+}
+
+.name_wear {
+    display: inline-block;
+    font-family: 'Quicksand';
+    color: #aa9b77;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 55px;
+    float: left;
+    margin-left: 25px;
+    font-weight: 700;
+}
+
+.money {
+    display: inline-block;
+    font-family: 'Quicksand';
+    color: #424242;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    float: right;
+    margin-top: 55px;
+    margin-right: 25px;
+    font-weight: 700;
+}
+
+.pants {
+    display: inline-block;
+    width: 320px;
+    height: 378px;
+    border: 2px solid black;
+    margin-left: 64px;
+    float: left;
+}
+
+.pants>img {
+    display: inline-block;
+    margin-top: 73px;
+    margin-right: 102px;
+    float: right;
+}
+
+.name_pants {
+    display: inline-block;
+    font-family: 'Quicksand';
+    color: #aa9b77;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    float: left;
+    margin-left: 25px;
+    margin-top: 31px;
+    font-weight: 700;
+}
+
+.money_pants {
+    display: inline-block;
+    font-family: 'Quicksand';
+    color: #424242;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    float: right;
+    margin-right: 25px;
+    margin-top: 31px;
+    font-weight: 700;
+}
+
+.backpack {
+    display: inline-block;
+    width: 320px;
+    height: 378px;
+    border: 2px solid black;
+    margin-left: 64px;
+    font-weight: 700;
+}
+
+.backpack .litri {
+    display: inline-block;
+    font-family: 'Quicksand';
+    color: #424242;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left;
+    margin-top: 29px;
+    margin-left: 27px;
+    font-weight: 700;
+}
+
+.backpack>img {
+    display: inline-block;
+    margin-top: 42px;
+    margin-right: 92px;
+    float: right;
+}
+
+.women>hr {
+    background-color: #cccccc;
+    width: 996px;
+    height: 2px;
+    float: left;
+    display: inline-block;
+    border: none;
+    margin-top: 99px;
+    margin-left: 104px;
+}
+
+.women {
+    font-family: 'Quicksand';
+    color: #424242;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+    text-transform: uppercase;
+}
+
+.women>h3 {
+    display: inline-block;
+    margin-top: 85px;
+    margin-left: 9px;
+}
+
+.women>.page {
+    float: left;
+    margin-left: 104px;
+}
+
+.women_one {
+    width: 1280px;
+    height: 513px;
+    margin-top: 97px;
+}
+
+.giacket {
+    display: inline-block;
+    width: 320px;
+    height: 378px;
+    border: 2px solid black;
+    float: left;
+    margin-left: 101px;
+}
+
+.giacket>img {
+    display: inline-block;
+    background-color: #f5f6f7;
+    margin-right: 49px;
+    float: right;
+    margin-top: 81px;
+}
+
+.giacket>p {
+    display: inline-block;
+    margin-top: 42px;
+    font-weight: 700;
+}
+
+.shoes {
+    display: inline-block;
+    width: 320px;
+    height: 378px;
+    border: 2px solid black;
+    margin-left: 64px;
+    float: left;
+}
+
+.shoes>img {
+    margin-top: 121px;
+    margin-right: 60px;
+    float: right;
+}
+
+.shoes>p {
+    margin-top: 82px;
+    font-weight: 700;
+}
+
+.t_shirt {
+    display: inline-block;
+    width: 320px;
+    height: 378px;
+    border: 2px solid black;
+    margin-left: 64px;
+}
+
+.t_shirt>img {
+    margin-top: 74px;
+    float: right;
+    margin-right: 71px;
+}
+
+.t_shirt>p {
+    margin-top: 36px;
+    font-weight: 700;
+}
+
+.about_us {
+    background-color: #aa9b77;
+    width: 1280px;
+    height: 402px;
+}
+
+.about {
+    display: inline-block;
+    font-family: 'Quicksand';
+    color: #837659;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 71px;
+    margin-left: 12px;
+    text-transform: uppercase;
+    text-transform: uppercase;
+}
+
+.one {
+    display: inline-block;
+    background-color: #918363;
+    width: 293px;
+    height: 2px;
+    margin-top: 82px;
+    margin-left: 283px;
+    border: none;
+    float: left;
+}
+
+.two {
+    display: inline-block;
+    border: none;
+    width: 297px;
+    height: 2px;
+    background-color: #918363;
+    margin-top: 82px;
+    margin-right: 286px;
+    float: right;
+}
+
+.about_us>p {
+    display: inline-block;
+    width: 469px;
+    height: 84px;
+    font-family: 'Quicksand';
+    color: #424242;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    margin-left: 120px;
+}
+
+.three {
+    display: inline-block;
+    background-color: #918363;
+    width: 2px;
+    height: 251px;
+    border: none;
+    margin-left: 282px;
+}
+
+.four {
+    display: inline-block;
+    background-color: #918363;
+    width: 2px;
+    height: 251px;
+    border: none;
+}
+
+.commerce {
+    background-color: #535253;
+    width: 1280px;
+    height: 72px;
+}
+
+.commerce>i {
+    display: inline-block;
+    float: left;
+    margin-left: 64px;
+    margin-top: 24px;
+    color: #424242;
+    font-size: 29px;
+}
+
+.commerce>p {
+    display: inline-block;
+    font-family: 'Quicksand';
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+    margin-top: 29px;
+    margin-left: 20px;
+}
+
+.footer {
+    background-color: #424242;
+    width: 1280px;
+    height: 352px;
+}
+
+.end_one {
+    display: inline-block;
+    width: 400px;
+}
+
+.end_one>h3 {
+    display: inline-block;
+    font-family: 'Quicksand';
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-left: 64px;
+    margin-top: 109px;
+}
+
+.end_one>p {
+    width: 306px;
+    font-family: 'Quicksand';
+    color: #ffffff;
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    margin-top: 22px;
+    margin-left: 65px;
+}
+
+.end_two {
+    display: inline-block;
+    float: right;
+    width: 880px;
+    height: 352px;
+}
+
+.credits {
+    display: inline-block;
+    list-style-type: none;
+    font-family: 'Quicksand';
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 28px;
+    text-align: left;
+    text-transform: uppercase;
+    float: right;
+    margin-top: 154px;
+    margin-right: 65px;
+}
+
+.credits>li {
+    display: inline-block;
+    float: left;
+    margin-left: 8px;
+    border-right: 1px solid #aa9b77;
+    font-size: 14px;
+    padding-right: 6px;
+}
+
+.credits>li:last-child {
+    border: none;
+    color: #ffffff;
+}
+
+.credits a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.end_two>p {
+    font-family: 'Quicksand';
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    margin-top: 182px;
+    margin-left: 581px;
+}
