@@ -1,0 +1,662 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1400px;
+    height: 3053px;
+    margin: 0 auto;
+    background-image: url(foto/Background.jpg);
+}
+
+.header {
+    float: left;
+    width: 1400px;
+    height: 140px;
+    background-color: #f9f9f7;
+}
+
+.icons {
+    display: inline-block;
+    margin-left: 117px;
+    margin-top: 61px;
+    color: #a1a2a6;
+    font-size: 20px;
+}
+
+.menu {
+    display: inline;
+    margin-left: 261px;
+    margin-top: 60px;
+}
+
+.title i:nth-child(n+2) {
+    margin-left: 33px;
+}
+
+.menu img {
+    height: 20px;
+    width: 165px;
+}
+
+.bars_one {
+    float: right;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-right: 118px;
+}
+
+.foto {
+    display: inline-block;
+    margin-left: 117px;
+    margin-top: 65px;
+    margin-bottom: 0;
+    height: 265px;
+}
+
+.foto img:nth-child(n+2) {
+    margin-left: 35px;
+}
+
+.nextfoto {
+    display: inline-block;
+    height: 265px;
+    margin-left: 117px;
+    margin-top: 34px;
+}
+
+.nextfoto img:nth-child(n+2) {
+    margin-left: 35px;
+}
+
+.apicture {
+    display: inline-block;
+    width: 1165px;
+    height: 400px;
+    margin-left: 117px;
+    margin-top: 65px;
+    background-image: url(foto/apicture.jpg);
+}
+
+.people {
+    display: block;
+    font-family: 'Archivo Narrow', sans-serif;
+    width: 576px;
+    height: 108px;
+    margin-left: 295px;
+    margin-top: 126px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+.apicture .button {
+    display: inline;
+    border: 1px;
+    width: 193px;
+    height: 45px;
+    margin-left: 487px;
+    margin-top: 47px;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    outline: none;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 1.3px;
+}
+
+.button:hover {
+    background-color: darkgray;
+}
+
+.blizzard {
+    display: inline-block;
+    background-color: #ffffff;
+    width: 865px;
+    height: 456px;
+    margin-left: 117px;
+    margin-top: 65px;
+    float: left;
+}
+
+.blizzard .picture_min {
+    display: inline-block;
+    height: 10px;
+    font-family: Arial;
+    color: #989b9f;
+    font-size: 14px;
+    letter-spacing: 0.14px;
+    line-height: 30px;
+    text-align: left;
+    margin-left: 30px;
+    margin-top: 50px;
+    text-transform: capitalize;
+}
+
+.blizzard .picture_min .data {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.blizzard .picture_min .minute {
+    display: inline-block;
+    margin-left: 213px;
+    text-transform: lowercase;
+}
+
+.blizzard .picture_min i {
+    margin-left: 10px;
+}
+
+.apicture_next {
+    display: inline-block;
+    width: 684px;
+}
+
+.caption {
+    display: inline-block;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-top: 20px;
+    font-size: 28px;
+    text-transform: capitalize;
+}
+
+.foto_bl {
+    width: 233px;
+    height: 227px;
+    margin-left: 31px;
+    float: left;
+}
+
+.dad_blizzard {
+    width: 388px;
+    height: 256px;
+    margin-left: 296px;
+}
+
+.dad_blizzard {
+    font-family: 'Archivo Narrow', sans-serif;
+    font-size: 17px;
+    line-height: 24px;
+    color: #000000;
+}
+
+.dad_blizzard .hammer {
+    color: #636060;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.foto_text {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.author {
+    display: inline-block;
+    float: right;
+    margin-right: 47px;
+    margin-top: 25px;
+    font-family: 'Yanone Kaffeesatz';
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+}
+
+.author a {
+    display: inline-block;
+    text-decoration: none;
+    color: #e6618c;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.12px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.jonasduri {
+    margin-top: 16px;
+}
+
+.icons_next {
+    margin-top: 39px;
+    color: #a1a2a6;
+}
+
+.author i:nth-child(n+1) {
+    margin-bottom: 17px;
+}
+
+
+/* Категории. выпадающее меню */
+
+.categorys_sp {
+    margin: 0;
+    padding: 0;
+}
+
+.categorys {
+    display: inline-block;
+    width: 265px;
+    height: 428px;
+    background-color: #ffffff;
+    margin-top: 65px;
+    margin-left: 35px;
+}
+
+.categorys > p {
+    display: inline-block;
+    margin-left: 102px;
+    margin-top: 46px;
+    font-family: 'Yanone Kaffeesatz';
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center
+}
+
+.categorys_sp {
+    display: inline-block;
+    margin-left: 35px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.65px;
+    line-height: 24px;
+    text-align: left;
+    list-style-image: url(foto/Polygon%201.jpg);
+}
+
+.travel:nth-child(n+1) {
+    margin-bottom: 15px;
+}
+
+.travel:hover .travel_menu {
+    display: block;
+    padding: 0;
+}
+
+.travel:hover {
+    list-style-image: url(foto/Polygon1.jpg);
+}
+
+.travel_menu {
+    list-style-image: url(foto/Polygon%201.jpg);
+    display: none;
+    font-family: 'Archivo Narrow', sans-serif;
+}
+
+.travel_menu > li > a {
+    text-decoration: underline;
+    color: #e6618c;
+    font-size: 13px;
+    font-style: italic;
+    letter-spacing: 0.65px;
+    line-height: 24px;
+    list-style-image: url(foto/Polygon%201.jpg);
+}
+
+
+/* Категории. выпадающее меню */
+
+
+/* Архив. Выпадающее меню */
+
+.year {
+    font-family: Arial;
+    margin-left: 35px;
+    color: #000000;
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: 0.65px;
+    line-height: 24px;
+    text-align: left;
+    list-style-image: url(foto/Polygon%201.jpg)
+}
+
+.month_two {
+    display: none;
+    list-style-image: url(foto/Polygon1.jpg);
+}
+
+.month {
+    display: none;
+}
+
+.month_one:hover .month_two {
+    display: block;
+}
+
+.year:hover .month {
+    list-style-image: url(foto/Polygon%201.jpg);
+    display: block;
+    padding: 0;
+}
+
+.year:hover {
+    list-style-image: url(foto/Polygon1.jpg);
+}
+
+.month:hover .month_two {
+    display: block;
+}
+
+.month_one:hover {
+    list-style-image: url(foto/Polygon1.jpg);
+}
+
+.month_two > li > a {
+    text-decoration: underline;
+    color: #e6618c;
+    font-size: 13px;
+    font-style: italic;
+    letter-spacing: 0.65px;
+    line-height: 24px;
+    list-style-image: url(foto/Polygon%201.jpg);
+}
+
+.categorys a {
+    color: #e6618c;
+}
+
+
+/* Архив. Выпадающее меню */
+
+.footer {
+    margin: 0 auto;
+    background-color: #1a1a1a;
+    width: 1400px;
+    height: 140px;
+}
+
+.bars {
+    color: white;
+    float: right;
+    font-size: 20px;
+    margin-top: 60px;
+    margin-right: 118px;
+}
+
+
+/* Контакты */
+
+.contacts {
+    display: inline-block;
+    background-color: #ffffff;
+    width: 565px;
+    height: 657px;
+    margin-left: 117px;
+    margin-top: 55px;
+    float: left;
+}
+
+.contact_me {
+    margin-left: 30px;
+    margin-top: 50px;
+    font-family: 'Yanone Kaffeesatz';
+    color: #000000;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.sub_contacts {
+    display: inline-block;
+    width: 385px;
+    height: 37px;
+    margin-left: 32px;
+    margin-top: 26px;
+    font-family: Arial;
+    color: #636060;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.14px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.fieldset {
+    border: none;
+}
+
+.sub_fieldset {
+    display: inline-block;
+    margin-left: 32px;
+    margin-top: 29px;
+    padding-left: 29px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d6d6d6;
+    background-color: #f2f2f2;
+    width: 235px;
+    height: 45px;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+.sub_fieldset_two {
+    display: inline-block;
+    margin-left: 32px;
+    margin-top: 22px;
+    padding-left: 29px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d6d6d6;
+    background-color: #f2f2f2;
+    width: 235px;
+    height: 45px;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+.textarea {
+    display: block;
+    margin-left: 32px;
+    margin-top: 22px;
+    padding-left: 29px;
+    padding-top: 22px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d6d6d6;
+    background-color: #f2f2f2;
+    width: 472px;
+    height: 219px;
+    font-style: italic;
+    font-family: sans-serif;
+}
+
+.button_two {
+    margin-left: 31px;
+    margin-top: 23px;
+    background-color: #202020;
+    border: 1px;
+    width: 193px;
+    height: 45px;
+    font-family: 'Yanone Kaffeesatz';
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+}
+
+.button_two:hover {
+    background-color: darkgray;
+}
+
+.required {
+    display: inline-block;
+    width: 58px;
+    height: 13px;
+    margin-left: 31px;
+    font-family: Arial;
+    color: #c0c0c0;
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: 0.14px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.please_ent {
+    display: inline-block;
+    height: 13px;
+    margin-left: 31px;
+    font-family: Arial;
+    color: #f2bb59;
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: 0.14px;
+    line-height: 24px;
+    text-align: left;
+}
+
+
+/* Контакты */
+
+
+/* Посты рандом */
+
+.random {
+    display: inline-block;
+    background-color: #ffffff;
+    margin-left: 35px;
+    margin-top: 55px;
+    width: 265px;
+    height: 348px;
+    float: left;
+}
+
+.random_post {
+    width: 116px;
+    height: 22px;
+    margin-left: 32px;
+    margin-top: 49px;
+    font-family: 'Yanone Kaffeesatz';
+    color: #000000;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+    text-transform: capitalize;
+}
+
+.random_one {
+    margin-left: 30px;
+    margin-top: 18px;
+}
+
+.random_second {
+    margin-right: 117px;
+    margin-top: 55px;
+    background-color: #ffffff;
+    width: 265px;
+    height: 348px;
+    float: right;
+}
+
+.photography {
+    display: inline-block;
+    margin-left: 32px;
+    margin-top: 15px;
+    font-family: 'Yanone Kaffeesatz';
+    color: #000000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.newsletter {
+    margin-left: 35px;
+    margin-top: 30px;
+    display: inline-block;
+    background-color: #ffffff;
+    width: 564px;
+    height: 304px;
+}
+
+
+/* Посты рандом */
+
+
+/* Ньюс летер */
+
+.black_white {
+    margin-left: 200px;
+    margin-top: 51px;
+}
+
+.news_letter {
+    display: block;
+    margin-left: 234px;
+    margin-top: 14px;
+    font-family: 'Yanone Kaffeesatz';
+    color: #000000;
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: left;
+}
+
+.mail_address {
+    display: block;
+    margin-left: 87px;
+    margin-top: 35px;
+    padding-left: 128px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d6d6d6;
+    background-color: #f2f2f2;
+    width: 257px;
+    height: 45px;
+    font-family: Arial;
+    color: #c0c0c0;
+    font-size: 14px;
+    font-style: italic;
+    letter-spacing: 0.14px;
+    line-height: 24px;
+    text-align: left;
+}
+
+.subscribe {
+    display: block;
+    width: 193px;
+    height: 45px;
+    margin-left: 183px;
+    margin-top: 22px;
+    background-color: #202020;
+    border: 1px;
+    font-family: 'Yanone Kaffeesatz';
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.3px;
+}
+
+.subscribe:hover {
+    background-color: darkgray;
+}
